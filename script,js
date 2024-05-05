@@ -1,0 +1,12 @@
+function login() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Simulate user authentication (hardcoded credentials)
+    if (username === 'manager' && password === 'password') {
+        // Redirect to project dashboard (for demonstration)
+        window.location.href = 'dashboard.html';
+    } else {
+        alert('Invalid credentials. Please try again.');
+    }
+}
